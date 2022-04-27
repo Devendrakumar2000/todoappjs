@@ -1,0 +1,68 @@
+body{
+    margin: 30px 30px 0px 30px;background-color: black;
+}
+.fa-trash-can{
+   border-radius: 5px;
+    color: red;
+    font-size: 30px;
+}
+.main{
+    color: blue;
+    border-radius: 5px;
+    font-size: 30px;margin-left: 800px;vertical-align:super;
+}
+button{
+    background-color: red;color: white;border:1px solid black;
+    border-radius: 14px;padding: 10px;
+}
+#popup{
+  margin: 116px 0px 500px 520px;
+  display: none;background-color: white;
+  width: 200px;text-align: center;
+  height: 110px;line-height: 35px;
+  border: 2px solid black;
+  border-radius: 40px;padding: 40px;
+}
+#taskpopup{position: absolute;display: none;
+    margin: -320px 0px 500px 520px;
+    background-color: white;
+    width: 200px;text-align: center;
+    height: 110px;line-height: 35px;
+    border: 2px solid black;
+    border-radius: 40px;padding: 40px;
+  }
+.al{
+    font-size: xx-large;margin-left: 5px;position:absolute;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;column-gap: 40px;
+    margin-top: 10px;
+}
+.box {
+    display: flex;flex-direction: column;
+    width: 240px;
+    height: 370px;
+    position: relative;
+    background-color:white;
+    border-radius: 25px;
+    
+}
+.header{
+    text-align: center;font-size: x-large;
+}
+.icon1{
+    font-size: 30px;margin: 0px 0px 0px 150px;
+}
+.icon2{
+    font-size: 30px;margin: -30px 0px 0px 190px;
+}
+.tasks{
+    width: 220px;
+    height: 270px;
+}
+#noitems{
+    color: white;
+}

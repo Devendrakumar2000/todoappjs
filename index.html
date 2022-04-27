@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+</head>
+<body>
+    <script src="./index.js"></script>
+     <div id="bg">
+        <span style="font-size:40px;font-weight: 900;color: white;">Task Lists</span>
+        <i class="fa-solid fa-circle-plus main" style="color: red;" onclick="addlistpopup()"></i>
+        <span style="color: white;" class="al" >Add list</span>
+      <div>
+     <p id="noitems">No items in the list</p>
+     <div class="flex-container">
+     </div>
+
+      </div>
+      
+    </div>
+    <div id="popup">
+        <span style="font-size: xx-large; background-color:white">Add New List</span>
+         <div>
+          <input type="text" id="card" value="" placeholder="Enter the Listname" style="color: blue;">
+         </div>
+        <div> 
+         <button onclick="addlist()">ADD</button>
+         <button onclick="closepopup()" >Close</button>
+        </div>
+       </div>
+       <div id="taskpopup">
+        <span style="font-size: xx-large; background-color:white">Add New Task</span>
+         <div>
+          <input type="text" id="task" value="" placeholder="Enter the task" style="color: blue;">
+         </div>
+        <div> 
+         <button onclick="addtask()">ADD</button>
+         <button onclick="closetaskpopup()">Close</button>
+        </div>
+       </div>
+
+</body>
+</html>
